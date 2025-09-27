@@ -46,7 +46,7 @@ body {
 /* ----- headings ----- */
 body{
   --h1-font: 'Linux Libertine','Georgia','Times',serif;
-  --h1-size: 1.7em;
+  --h1-size: 1.5em; /* KE BARTLET - Look here to reduce heading size to fit within max-width to avoid issues with info box*/
   --h2-size: 1.25em;
   --h3-size: 1.17em;
   --h4-size: 1.12em;
