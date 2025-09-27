@@ -974,14 +974,15 @@
             }
         },
         J = class {
-            constructor(t) {
+            constructor(t) 
+            {/*
                 if (this.title = "", this.headers = [], this.callouts = [], this.lists = [], this.children = [], this.isPreview = !1, this.initialized = !1, this._exists = !1, !window?.location) return;
                 if ((t = t.trim()).startsWith("http") || t.startsWith("www") || t.startsWith("/") || t.startsWith("\\")) return void console.error("Please use a relative path from the root of the wesite to load a webpage");
                 this.pathname = $.getPathnameFromURL(t), this.hash = $.getHashFromURL(t), this.query = $.getQueryFromURL(t);
                 let e = window?.location?.origin;
                 if ("null" == e && (e = "file://"), this.info = ObsidianSite.getWebpageData(this.pathname), !this.info && !ObsidianSite.metadata.ignoreMetadata) return new K("This page does not exist yet."), void console.warn("This page does not exist yet.", this.pathname);
                 this._exists = !0, this.documentType = this.info?.type ?? "markdown", this.title = this.info?.title ?? this.pathname
-            }
+            */}
             get isMainDocument() {
                 return null == this.parent && !this.isPreview
             }
