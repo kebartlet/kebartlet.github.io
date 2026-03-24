@@ -333,7 +333,7 @@ min-width: 100px ;
 body:not(.info-normal) .callout[data-callout="info"]:not([data-callout-metadata~="normal"]), .callout[data-callout-metadata~="info"] {
   float: var(--infobox-position);
   clear: var(--infobox-position);
-  min-width: 68%; /* KE BARTLET - Look here for the Info Box Width.*/
+  /* min-width: 68%; /* KE BARTLET - Look here for the Info Box Width.*/
   width: var(--infobox-width);
   margin: var(--infobox-margin);
   background-color: var(--background-secondary-alt);
@@ -369,7 +369,7 @@ margin: 0px; /* close gaps in infobox when info callout title is hidden */
 
 /* make image full size inside a callout */
 .markdown-rendered .callout-content img, .cm-contentContainer .callout-content img {
-  float: none;
+  /*float: none;*/
   margin: 0px;
   border: none;
   background-color: transparent;
@@ -450,14 +450,15 @@ body {
 
 
 /* float to the right */
+/* K.E. Bartlet 03/24/26 0724 Pacific (UTC-7) modifying this section to resize cover images*/
 .markdown-rendered img {
-  float: right;
+  /*float: right;*/
   margin: var(--infobox-margin);
-  width: var(--image-width);
+  width: calc(var(--image-width) * 0.5);
   clear: right;
   background-color: var(--background-secondary-alt);
-  padding: 5px;
-  border: 1px var(--background-modifier-border) solid;
+  padding: 0px;
+  border: 0px var(--background-modifier-border) solid;
   max-width: var(--img-max-width);
 }
 

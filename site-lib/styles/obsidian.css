@@ -3365,9 +3365,12 @@ body {
 .popover.hover-popover>.image-embed video,
 .popover.hover-popover>.video-embed img,
 .popover.hover-popover>.video-embed video {
-    width: 100%;
-    max-width: inherit;
-    max-height: inherit
+    width: 5%;
+    /*TEMP K.E. Bartlet testing for cover image resizing. */
+    max-width: 250px; 
+    max-height: 250px;
+    /*max-width: inherit;
+    max-height: inherit;*/
 }
 
 .popover.hover-popover>.audio-embed {
@@ -8123,7 +8126,7 @@ body:not(.is-ios) .canvas-wrapper.mod-animating .canvas-group-label {
 .canvas-node-content.media-embed img,
 .canvas-node-content.media-embed video {
     flex-shrink: 0;
-    flex-grow: 1
+    flex-grow: 0 /*Originally set to 1, but K.E. Bartlet changing 03/24/26 0703 Pacific (UTC-7) for testing for image resizing for cover images.*/
 }
 
 .canvas-node-content.media-embed audio,
