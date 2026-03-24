@@ -172,7 +172,7 @@ body {
 
 /* ------ Frontmatter ------ */
 body {
-  --infobox-width: 25%;
+  --infobox-width: 26%;
   --infobox-margin: 1em 0px 1em 1em;
   --infobox-margin-left: 1em 1em 1em 0px;
 }
@@ -444,7 +444,7 @@ margin: 0px; /* close gaps in infobox when info callout title is hidden */
 /* ------ Images ------ */
 body {
   --image-width: var(--infobox-width);
-  --img-max-width: 55%;
+  --img-max-width: 50%;
 }
 
 
