@@ -454,7 +454,7 @@ body {
 .markdown-rendered img {
   /*float: right;*/
   margin: var(--infobox-margin);
-  width: calc(var(--image-width) * 0.5);
+  width: calc(var(--image-width) * 0.37);
   clear: right;
   background-color: var(--background-secondary-alt);
   padding: 0px;
